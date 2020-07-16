@@ -10,7 +10,7 @@ const Header = () => {
                 <img src={logo} className="d-inline-block align-top mx-sm-2" alt="" />
                 <span className="nav-title">Programming Hero</span>
             </Link>
-               <div className="ml-md-auto mx-auto" id="navbar-nav">
+               <div className="ml-auto" id="navbar-nav">
                <NavLink to="/course/programming-hero-bangla-web-course" className="text-light nav-item">
                     Course
                 </NavLink>
