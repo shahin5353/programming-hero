@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Programming Hero Template Design"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Programming Hero Web Development Course &#8211; Learn with full of fun way and projects</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- JQuery for Collapse Plus Minus Icon Change -->
+    <script>
+      $(document).ready(function(){
+          $(".milestone-collapse.show").each(function(){
+            $(this).prev(".milestone").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+          });
+        
+          $(".milestone-collapse").on('show.bs.collapse', function(){
+            $(this).prev(".milestone").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+          }).on('hide.bs.collapse', function(){
+            $(this).prev(".milestone").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+          });
+      }); 
+  </script>
+  </body>
+</html>

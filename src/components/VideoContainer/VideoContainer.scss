@@ -1,0 +1,18 @@
+.video-block{
+    position: relative;
+}
+.prev-btn{
+  background: linear-gradient(#E5E5E5,#E5E5E5);
+  font-size: 15px!important;
+  font-weight: 600!important;
+  
+}
+.next-btn{
+  background: linear-gradient(to right,#FF589B,#FF136F);
+  font-size: 15px!important;
+  font-weight: 600!important;
+  color: #fff!important;
+}
+.copyright button:active{
+  outline: none;
+}

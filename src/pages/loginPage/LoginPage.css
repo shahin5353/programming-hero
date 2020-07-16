@@ -1,0 +1,40 @@
+.login-page{
+    background: linear-gradient(to bottom,#684EFB,#5A00DD);
+    height: 90vh;
+    align-items: center;
+    overflow: hidden;
+}
+.login-right-block{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+.man-img{
+    position: absolute;
+    left: 15%;
+}
+.login-left-block{
+    position: relative;
+}
+.leafImg{
+    display: none;
+    position: absolute;
+    top: 45%;
+}
+  @media screen and (min-width: 992px) {
+    .leafImg{
+        display: block;
+        left: -36%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .leafImg{
+        left: -23%;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .leafImg{
+        left: -17%;
+    }
+  }
+  

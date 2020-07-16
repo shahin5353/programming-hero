@@ -1,0 +1,31 @@
+#clock-container{
+  color: #fff;
+  display: inline-block;
+  display: inline-block;
+  font-weight: 600;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 1px;
+  & > div{
+     padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    span{
+      padding: 15px;
+      border-radius: 3px;
+      background: linear-gradient(to right,#684EFB,#5A00DD);
+      display: inline-block;
+    }
+    .clock-text{
+      padding-top: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000;
+      text-transform: capitalize;
+    }
+  }
+}
+
+
+
+
